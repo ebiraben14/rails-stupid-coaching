@@ -12,7 +12,8 @@ class QuestionsController < ApplicationController
     @answer = "Silly question, get dressed and go to work!"
 
     else
-      @answer = "I don't care, get dressed and go to work!"
+    @answer = "I don't care, get dressed and go to work!"
+    @link = "https://www.google.com"
     end
   end
 end
